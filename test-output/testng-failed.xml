@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [JenkinsTest]">
+  <test name="MyTests(failed)">
+    <classes>
+      <class name="JenkinsAnt.JenkinsTest">
+        <methods>
+          <include name="TestAnt"/>
+        </methods>
+      </class> <!-- JenkinsAnt.JenkinsTest -->
+    </classes>
+  </test> <!-- MyTests(failed) -->
+</suite> <!-- Failed suite [JenkinsTest] -->
